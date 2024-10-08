@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 296px;
+  padding: 16px 12px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #004e92;
+  background: linear-gradient(145deg, #004e92, #010c70);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+.input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.input:focus {
+  box-shadow: 0 0 6px rgba(0, 78, 146, 0.5);
+  transform: scale(1.02);
+}
+
+.input:hover {
+  box-shadow: 0 0 4px rgba(0, 78, 146, 0.3);
+  transform: scale(1.02);
+}

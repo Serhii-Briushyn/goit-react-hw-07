@@ -1,0 +1,74 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 296px;
+  height: max-content;
+  padding: 16px 12px;
+  background-color: #004e92;
+  background: linear-gradient(145deg, #004e92, #010c70);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input {
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.input:focus {
+  box-shadow: 0 0 6px rgba(0, 78, 146, 0.5);
+  transform: scale(1.02);
+}
+
+.input:hover {
+  box-shadow: 0 0 4px rgba(0, 78, 146, 0.3);
+  transform: scale(1.02);
+}
+
+.message {
+  font-size: 10px;
+  color: red;
+}
+
+.button {
+  width: max-content;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #fafafa;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  background-color: #003d72;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#487ff5, #0a39a0),
+    linear-gradient(to right, #3d4a57, #303136);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  transition: all 250ms ease-in-out;
+  &:hover {
+    background-color: #004e92;
+    border: 2px solid #8aa2bd;
+    transform: scale(1.05);
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
