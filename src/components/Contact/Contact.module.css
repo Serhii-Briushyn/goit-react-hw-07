@@ -52,22 +52,22 @@
 }
 
 .text:nth-child(1) svg {
-  color: green;
+  color: #008000;
   transition: color 0.3s ease;
 }
 
 .text:nth-child(1):hover svg {
-  color: limegreen;
+  color: #32cd32;
   transform: rotate(-10deg);
 }
 
 .text:nth-child(2) svg {
-  color: brown;
+  color: #a52a2a;
   transition: color 0.3s ease;
 }
 
 .text:nth-child(2):hover svg {
-  color: darkorange;
+  color: #ff8c00;
   transform: rotate(10deg);
 }
 
